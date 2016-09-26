@@ -6,3 +6,12 @@ C:\Users\casa\Documents\SharpDevelop Projects\HolaMundo\HolaMundo\obj\Debug\Hola
 C:\Users\casa\Documents\SharpDevelop Projects\HolaMundo\HolaMundo\obj\Debug\ABMarticulos.csproj.GenerateResource.Cache
 C:\Users\casa\Documents\SharpDevelop Projects\HolaMundo\HolaMundo\obj\Debug\ABMarticulos.exe
 C:\Users\casa\Documents\SharpDevelop Projects\HolaMundo\HolaMundo\obj\Debug\ABMarticulos.pdb
+C:\Users\casa\Documents\GitHub\Prueba\bin\Debug\ABMarticulos.exe.config
+C:\Users\casa\Documents\GitHub\Prueba\bin\Debug\ABMarticulos.exe
+C:\Users\casa\Documents\GitHub\Prueba\bin\Debug\ABMarticulos.pdb
+C:\Users\casa\Documents\GitHub\Prueba\obj\Debug\ABMarticulos.csprojResolveAssemblyReference.cache
+C:\Users\casa\Documents\GitHub\Prueba\obj\Debug\HolaMundo.MainForm.resources
+C:\Users\casa\Documents\GitHub\Prueba\obj\Debug\ABMarticulos.csproj.GenerateResource.Cache
+C:\Users\casa\Documents\GitHub\Prueba\obj\Debug\ABMarticulos.exe
+C:\Users\casa\Documents\GitHub\Prueba\obj\Debug\ABMarticulos.pdb
+C:\Users\casa\Documents\GitHub\Prueba\obj\Debug\HolaMundo.FormModificar.resources

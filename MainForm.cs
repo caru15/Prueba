@@ -27,7 +27,7 @@ namespace HolaMundo
 		void Button1Click(object sender, EventArgs e)
 		{
 			StreamReader objReader;
-			objReader = File.OpenText(@"C:\Users\casa\Documents\SharpDevelop Projects\HolaMundo\HolaMundo\bin\Debug\articulos.txt");
+			objReader = File.OpenText(@"C:\Users\casa\Documents\GitHub\Prueba\bin\Debug\Prestamos.txt");
 			string sline="";
 		
 			
@@ -53,6 +53,12 @@ namespace HolaMundo
 		void DataGridView1CellContentClick(object sender, DataGridViewCellEventArgs e)
 		{
 			
+		}
+		void ModificarClick(object sender, EventArgs e)
+		{
+			FormModificar modificar = new FormModificar();
+				modificar.Show();
+				
 		}
 	}
 }

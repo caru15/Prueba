@@ -23,6 +23,7 @@ namespace HolaMundo
 		private System.Windows.Forms.DataGridViewTextBoxColumn Precio_mInimo;
 		private System.Windows.Forms.DataGridViewTextBoxColumn Precio_Maximo;
 		private System.Windows.Forms.DataGridViewTextBoxColumn Stock;
+		private System.Windows.Forms.Button Modificar;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -54,12 +55,13 @@ namespace HolaMundo
 			this.Precio_mInimo = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.Precio_Maximo = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.Stock = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.Modificar = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(237, 255);
+			this.button1.Location = new System.Drawing.Point(150, 255);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(143, 23);
 			this.button1.TabIndex = 0;
@@ -88,55 +90,66 @@ namespace HolaMundo
 			// 
 			// Cod
 			// 
-			this.Cod.HeaderText = "Codigo";
+			this.Cod.HeaderText = "Nro de Prestamo";
 			this.Cod.Name = "Cod";
 			this.Cod.ReadOnly = true;
 			this.Cod.Width = 80;
 			// 
 			// Nombre
 			// 
-			this.Nombre.HeaderText = "Nombre";
+			this.Nombre.HeaderText = "DNI";
 			this.Nombre.Name = "Nombre";
 			this.Nombre.ReadOnly = true;
 			// 
 			// Marca
 			// 
-			this.Marca.HeaderText = "Marca";
+			this.Marca.HeaderText = "Nombre";
 			this.Marca.Name = "Marca";
 			this.Marca.ReadOnly = true;
 			// 
 			// Nombre_Proveedor
 			// 
-			this.Nombre_Proveedor.HeaderText = "Nombre_Proveedor";
+			this.Nombre_Proveedor.HeaderText = "Apellido";
 			this.Nombre_Proveedor.Name = "Nombre_Proveedor";
 			this.Nombre_Proveedor.ReadOnly = true;
 			// 
 			// Precio_mInimo
 			// 
-			this.Precio_mInimo.HeaderText = "Precio_mInimo";
+			this.Precio_mInimo.HeaderText = "Telefono Fijo";
 			this.Precio_mInimo.Name = "Precio_mInimo";
 			this.Precio_mInimo.ReadOnly = true;
 			this.Precio_mInimo.Width = 80;
 			// 
 			// Precio_Maximo
 			// 
-			this.Precio_Maximo.HeaderText = "Precio_Maximo";
+			this.Precio_Maximo.HeaderText = "Telefono Movil";
 			this.Precio_Maximo.Name = "Precio_Maximo";
 			this.Precio_Maximo.ReadOnly = true;
 			this.Precio_Maximo.Width = 80;
 			// 
 			// Stock
 			// 
-			this.Stock.HeaderText = "Stock";
+			this.Stock.HeaderText = "Prestamo";
 			this.Stock.Name = "Stock";
 			this.Stock.ReadOnly = true;
 			this.Stock.Width = 80;
+			// 
+			// Modificar
+			// 
+			this.Modificar.Location = new System.Drawing.Point(385, 255);
+			this.Modificar.Name = "Modificar";
+			this.Modificar.Size = new System.Drawing.Size(122, 23);
+			this.Modificar.TabIndex = 2;
+			this.Modificar.Text = "Modificar";
+			this.Modificar.UseVisualStyleBackColor = true;
+			this.Modificar.Click += new System.EventHandler(this.ModificarClick);
 			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(718, 357);
+			this.Controls.Add(this.Modificar);
 			this.Controls.Add(this.dataGridView1);
 			this.Controls.Add(this.button1);
 			this.Name = "MainForm";
